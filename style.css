@@ -1,0 +1,49 @@
+body
+{
+background:linear-gradient(#341f97,#5f27cd,#a29bfe,#e84393,#fd79a8,#FDA7DF,#D980FA,#ffcccc,#341f97);
+}
+
+h1
+{
+  
+  color:rgb(255, 0, 119);
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas 
+  {
+    border:5px solid rgb(255, 0, 106);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(0, 42, 255);}
+  to {box-shadow: 1px 1px 38px rgba(255, 255, 255, 0);}
+
+}
+
+
+p
+  {
+    padding-top:10px;
+    font-size:25px;
+    color: #ffcccc
+  }
+
+  #n2{
+    color: #e84393;
+  }
+
+  #s2{
+    color:blue;
+    background:linear-gradient(#FDA7DF,#fd79a8,#e84393);
+  }
